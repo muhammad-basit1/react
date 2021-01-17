@@ -1,9 +1,9 @@
 import './App.css';
 import Dinner from './dinner.js';
-import React from 'react';
+import React, {useState} from 'react';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
           
@@ -11,14 +11,9 @@ function App() {
      <hr/>
      <Dinner sweets="Paradise" groceries="Kurleez"/>
      <hr/>
-     <Dinner sweets="Now" groceries="Kurkure"/>
-
-
-
-
-     
+     <Dinner sweets="Now" groceries="Kurkure"/>      
     </div>
   );
 }
 
-export default App;
+
